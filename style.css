@@ -1,0 +1,106 @@
+body {
+    font-family: 'Courier New', cursive;
+            text-align: center;
+            background: url('https://canecacriativadesign.com.br/wp-content/uploads/2024/02/Mockup-02-1-scaled.jpg') no-repeat;
+            opacity: 0.8; 
+            z-index: -1;
+            background-size: cover;
+            color: rgb(255, 255, 255);
+            overflow: hidden;
+            height: 100vh;
+            margin: 0;
+            padding: 0;
+
+}
+
+header {
+    background-color: #b83333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 48px; /* Tamanho da fonte */
+
+}
+h2{
+    font-size: 40px; /* Tamanho da fonte */
+    color: rgb(46, 11, 40);
+    text-align: center;
+   
+}
+p{
+    font-size: 20px; /* Tamanho da fonte */
+    font-weight: bold;
+    color: rgb(66, 57, 65);
+}
+h1, h2 {
+    margin: 20px 0;
+    font-weight: bold; 
+}
+
+footer {
+    background-color: #f76c6c;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+section {
+    padding: 20px;
+}
+
+button {
+    background-color: #f76c6c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e65c5c;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+textarea {
+    resize: vertical;
+}
+.lista {
+    font-weight: bold;
+    text-align: justify;
+    font-family: 'Courier New', cursive;
+    color: rgb(187, 24, 160);
+    
+}
+
+.contato {
+    color: rgb(12, 11, 12);
+    font-weight: bold;
+    font-size: 20px;
+    text-align: justify;
+}
